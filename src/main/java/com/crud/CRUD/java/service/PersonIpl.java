@@ -26,7 +26,7 @@ public class PersonIpl implements PersonService {
     @Override
     public Person deletePerson(long id) {
        this.personConnect.deleteById(id );
-        return true;
+        return null;
     }
 }
 
