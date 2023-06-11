@@ -6,6 +6,6 @@ public interface PersonService {
     Person newPerson(Person person);
     Iterable<Person> getAllPerson();
     Person modifyPerson(Person person);
-    Person deletePerson(long id);
+    boolean deletePerson(long id);
 
 }
